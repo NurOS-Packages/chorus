@@ -13,17 +13,14 @@ package:
   provides: []
   replaces: []
   conf: []
-
 source:
   url: "https://github.com/z3nnix/chorus/archive/refs/tags/{{VERSION}}.tar.gz"
-
 build:
   dependencies: ["golang"]
   script: |
     export HOME=/tmp/home
     mkdir -p $HOME
     go build -o chorus.bin ./cmd/chorus
-
 install:
   script: |
     mkdir -p "$DESTDIR/usr/bin"

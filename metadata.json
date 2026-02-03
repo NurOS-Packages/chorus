@@ -1,0 +1,20 @@
+{
+  "name": "chorus",
+  "version": "1.0.2",
+  "type": "binary",
+  "architecture": "x86_64",
+  "description": "Alternative build system written in Go",
+  "maintainer": "APGer <anmitali198@gmail.com>",
+  "license": "MIT",
+  "tags": [
+    "build",
+    "system",
+    "go"
+  ],
+  "homepage": "https://github.com/z3nnix/chorus",
+  "dependencies": [],
+  "conflicts": [],
+  "provides": [],
+  "replaces": [],
+  "conf": []
+}
